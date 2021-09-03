@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Solangture | Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/v/bs4/dt-1.10.21/r-2.2.5/datatables.min.css" />
+    <link rel="stylesheet" href="./assets/css/jquery.mmenu.all.css">
+    <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="asWrapper">
+        <header class="asHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 col-sm-6 col-md-4">
+                        <div class="siteLogo">
+                            <a href="index.html">
+                                <img src="./assets/images/logo.png" alt="Solangture">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-6 col-md-8 d-flex align-items-center justify-content-end">
+                        <a href="#mobileMenu" class="mobileNavBtn" title="Menu">
+                            <i class="fas fa-align-right"></i>
+                        </a>
+                        <div id="mobileMenu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="admin.html">Event Details</a></li>
+                                <li><a href="add_event.html">Add Events</a></li>
+                                <li class="active"><a href="appoinment.html">Appoinment</a></li>
+                                <li><a href="#"><i class="far fa-user"></i> Username</a>
+                                    <ul class="">
+                                        <li><a href="admin.html">Dashboard</a></li>
+                                        <li><a href="#">My Profile</a></li>
+                                        <li><a href="#">Change Password</a></li>
+                                        <li><a href="index.html">Log out</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="desktopMenu">
+                            <ul class="nav mainNav">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="admin.html">Event Details</a></li>
+                                <li><a href="add_event.html">Add Events</a></li>
+                                <li class="active"><a href="appoinment.html">Appoinment</a></li>
+                                <li class="userId"><a href="#"><i class="far fa-user"></i></a>
+                                    <ul class="">
+                                        <li><a href="admin.html">Dashboard</a></li>
+                                        <li><a href="#">My Profile</a></li>
+                                        <li><a href="#">Change Password</a></li>
+                                        <li><a href="index.html">Log out</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="secPadding">
+            <div class="container">
+                <h2 class="secTitle"><span>Appoinment</span></h2>
+                <div class="appoinmentTable">
+                    <table class="text-center table table-bordered table-striped" id="asDataTable"
+                        data-order='[[ 0, "asc" ]]'>
+                        <thead>
+                            <tr>
+                                <th scope="col">Time & Place</th>
+                                <th scope="col">Customer</th>
+                                <th scope="col">Services</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Appt. ID</th>
+                                <th scope="col">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Every two Weaks</td>
+                                <td>Amdy Smith</td>
+                                <td>Foreded Therading</td>
+                                <td>Free</td>
+                                <td>N/A</td>
+                                <td>Pending</td>
+                            </tr>
+                            <tr>
+                                <td>03 Oct at 12:00am, Melbourne</td>
+                                <td>Jeo Rootbr</td>
+                                <td>Hair Colouring</td>
+                                <td>$34</td>
+                                <td>CHNIL69W74</td>
+                                <td>Confirm</td>
+                            </tr>
+                            <tr>
+                                <td>04 April at 12:00am, london</td>
+                                <td>Reo Smith</td>
+                                <td>Memo Fest</td>
+                                <td>$32</td>
+                                <td>ERDEL69W74</td>
+                                <td>Pending</td>
+                            </tr>
+                            <tr>
+                                <td>12 Oct at 11:00am, Melbourne</td>
+                                <td>Jeo Rootbr</td>
+                                <td>Hair Colouring</td>
+                                <td>$31</td>
+                                <td>CHNWIL69W74</td>
+                                <td>Confirm</td>
+                            </tr>
+                            <tr>
+                                <td>03 Oct at 12:00am, Melbourne</td>
+                                <td>Jeo Rootbr</td>
+                                <td>Hair Colouring</td>
+                                <td>$34</td>
+                                <td>CHNIL69W74</td>
+                                <td>Confirm</td>
+                            </tr>
+                            <tr>
+                                <td>04 April at 12:00am, london</td>
+                                <td>Reo Smith</td>
+                                <td>Memo Fest</td>
+                                <td>$32</td>
+                                <td>ERDEL69W74</td>
+                                <td>Pending</td>
+                            </tr>
+                            <tr>
+                                <td>03 Oct at 12:00am, Melbourne</td>
+                                <td>Jeo Rootbr</td>
+                                <td>Hair Colouring</td>
+                                <td>$34</td>
+                                <td>CHNIL69W74</td>
+                                <td>Confirm</td>
+                            </tr>
+                            <tr>
+                                <td>12 Oct at 11:00am, Melbourne</td>
+                                <td>Jeo Rootbr</td>
+                                <td>Hair Colouring</td>
+                                <td>$31</td>
+                                <td>CHNWIL69W74</td>
+                                <td>Confirm</td>
+                            </tr>
+                            <tr>
+                                <td>03 Oct at 12:00am, Melbourne</td>
+                                <td>Jeo Rootbr</td>
+                                <td>Hair Colouring</td>
+                                <td>$34</td>
+                                <td>CHNIL69W74</td>
+                                <td>Confirm</td>
+                            </tr>
+                            <tr>
+                                <td>04 April at 12:00am, london</td>
+                                <td>Reo Smith</td>
+                                <td>Memo Fest</td>
+                                <td>$32</td>
+                                <td>ERDEL69W74</td>
+                                <td>Pending</td>
+                            </tr>
+                            <tr>
+                                <td>12 Oct at 11:00am, Melbourne</td>
+                                <td>Jeo Rootbr</td>
+                                <td>Hair Colouring</td>
+                                <td>$31</td>
+                                <td>CHNWIL69W74</td>
+                                <td>Confirm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <footer class="asFooter">
+            <div class="footerInfo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="fLogo">
+                                <a href="home.php">
+                                    <img src="assets/images/logo.png" alt="DUSRA Soft">
+                                </a>
+                            </div>
+                            <div class="addressFooter">
+                                <p>
+                                    35 Rupara Street,<br>
+                                    MODBURY,<br>
+                                    South Australia-5092
+                                </p>
+                            </div>
+                            <ul>
+                                <li><strong>Email:</strong> <a href="mailto:info@solangture.com">info@solangture.com</a>
+                                </li>
+                                <li><strong>Phone:</strong> <a href="tel:+61425440570">+61 425 440 570</a></li>
+                            </ul>
+                            <ul class="socialMedia">
+                                <li><a href="https://www.facebook.com/pg/solangturepage" class="facebook"
+                                        target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" class="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li><a href="#" class="dribbble" target="_blank"><i class="fab fa-dribbble"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <h4>Navigration</h4>
+                            <ul class="menu">
+                                <li><a href="#">Calender</a></li>
+                                <li><a href="#">Event</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Sign Up</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <h4>Quick Links</h4>
+                            <ul class="menu">
+                                <li><a href="#">Calender</a></li>
+                                <li><a href="#">Event</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Sign Up</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <h4>NewsLetter</h4>
+                            <div class="newsLetter">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Jhon Abraham">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="example@email.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <small class="form-text text-muted">Don't Worry we hate spam!</small>
+                                    </div>
+                                    <button type="submit" class="btn">Subcribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyRight">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 order-md-2">
+                            <ul class="nav justify-content-center justify-content-md-end">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Teams & Conditions</a></li>
+                                <li><a href="#">Site map</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 text-center text-md-left order-md-1">
+                            <p>&copy; copyright 2020. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/jquery.fancybox.min.js"></script>
+    <script src="./assets/js/jquery.mmenu.all.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.21/r-2.2.5/datatables.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#asDataTable thead tr').clone(true).appendTo('#asDataTable thead');
+            var table = $('#asDataTable').DataTable({
+                // "scrollX": true,
+                initComplete: function () {
+                    this.api().columns().every(function () {
+                        var column = this;
+                        var select = $('<select><option value="">-- Select --</option></select>')
+                            .appendTo($(column.header()).empty())
+                            .on('change', function () {
+                                var val = $.fn.dataTable.util.escapeRegex(
+                                    $(this).val()
+                                );
+                                column.search(val ? '^' + val + '$' : '', true, false).draw();
+                            });
+
+                        column.data().unique().sort().each(function (d, j) {
+                            select.append('<option value="' + d + '">' + d + '</option>')
+                        });
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

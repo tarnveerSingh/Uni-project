@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Calender | Solangture</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link href='./assets/css/fullcalendar.css' rel='stylesheet' />
+    <link href='./assets/css/fullcalendar.print.css' rel='stylesheet' media='print' />
+    <link rel="stylesheet" href="./assets/css/jquery.mmenu.all.css">
+    <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="asWrapper">
+        <header class="asHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 col-sm-6 col-md-4">
+                        <div class="siteLogo">
+                            <a href="index.html">
+                                <img src="./assets/images/logo.png" alt="Solangture">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-6 col-md-8 d-flex align-items-center justify-content-end">
+                        <a href="#mobileMenu" class="mobileNavBtn" title="Menu">
+                            <i class="fas fa-align-right"></i>
+                        </a>
+                        <div id="mobileMenu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li class="active"><a href="calender.html">Calender</a></li>
+                                <li><a href="event.html">Event</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="singup.html">Sign Up</a></li>
+                            </ul>
+                        </div>
+                        <div id="desktopMenu">
+                            <ul class="nav mainNav">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="active"><a href="calender.html">Calender</a></li>
+                                <li><a href="event.html">Event</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="singup.html">Sign Up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="pageBanner d-flex justify-content-center align-items-center" style="background-image: url('assets/images/calender.jpg');">
+            <div class="container">
+                <h2><span>Calender Events</span></h2>
+            </div>
+        </section>
+        <section class="secPadding">
+            <div class="container">
+                <div class="calenderOuter">
+                    <div id="calendar"></div>
+                </div>
+            </div>
+        </section>
+        <footer class="asFooter">
+            <div class="footerInfo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="fLogo">
+                                <a href="home.php">
+                                    <img src="assets/images/logo.png" alt="DUSRA Soft">
+                                </a>
+                            </div>
+                            <div class="addressFooter">
+                                <p>
+                                    35 Rupara Street,<br>
+                                    MODBURY,<br>
+                                    South Australia-5092
+                                </p>
+                            </div>
+                            <ul>
+                                <li><strong>Email:</strong> <a href="mailto:info@solangture.com">info@solangture.com</a>
+                                </li>
+                                <li><strong>Phone:</strong> <a href="tel:+61425440570">+61 425 440 570</a></li>
+                            </ul>
+                            <ul class="socialMedia">
+                                <li><a href="https://www.facebook.com/pg/solangturepage" class="facebook"
+                                        target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" class="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li><a href="#" class="dribbble" target="_blank"><i class="fab fa-dribbble"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <h4>Navigration</h4>
+                            <ul class="menu">
+                                <li><a href="#">Calender</a></li>
+                                <li><a href="#">Event</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Sign Up</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <h4>Quick Links</h4>
+                            <ul class="menu">
+                                <li><a href="#">Calender</a></li>
+                                <li><a href="#">Event</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Sign Up</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <h4>NewsLetter</h4>
+                            <div class="newsLetter">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Jhon Abraham">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="example@email.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <small class="form-text text-muted">Don't Worry we hate spam!</small>
+                                    </div>
+                                    <button type="submit" class="btn">Subcribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyRight">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 order-md-2">
+                            <ul class="nav justify-content-center justify-content-md-end">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Teams & Conditions</a></li>
+                                <li><a href="#">Site map</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 text-center text-md-left order-md-1">
+                            <p>&copy; copyright 2020. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src='./assets/js/fullcalendar.js' type="text/javascript"></script>
+    <script src="./assets/js/jquery.fancybox.min.js"></script>
+    <script src="./assets/js/jquery.mmenu.all.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+            var date = new Date();
+          var d = date.getDate();
+          var m = date.getMonth();
+          var y = date.getFullYear();
+      
+          $('#external-events div.external-event').each(function() {
+            var eventObject = {
+              title: $.trim($(this).text()) // use the element's text as the event title
+            };
+      
+            $(this).data('eventObject', eventObject);
+      
+            // make the event draggable using jQuery UI
+            $(this).draggable({
+              zIndex: 999,
+              revert: true,      // will cause the event to go back to its
+              revertDuration: 0  //  original position after the drag
+            });
+      
+          });
+      
+      
+          /* initialize the calendar
+          -----------------------------------------------------------------*/
+      
+          var calendar =  $('#calendar').fullCalendar({
+            header: {
+              left: 'title',
+              center: 'agendaDay,agendaWeek,month',
+              right: 'prev,next today'
+            },
+            editable: true,
+            firstDay: 1, //  1(Monday) this can be changed to 0(Sunday) for the USA system
+            selectable: true,
+            defaultView: 'month',
+      
+            axisFormat: 'h:mm',
+            columnFormat: {
+                      month: 'ddd',    // Mon
+                      week: 'ddd d', // Mon 7
+                      day: 'dddd M/d',  // Monday 9/7
+                      agendaDay: 'dddd d'
+                  },
+                  titleFormat: {
+                      month: 'MMMM yyyy', // September 2009
+                      week: "MMMM yyyy", // September 2009
+                      day: 'MMMM yyyy'                  // Tuesday, Sep 8, 2009
+                  },
+            allDaySlot: false,
+            selectHelper: true,
+            select: function(start, end, allDay) {
+              var title = prompt('Event Title:');
+              if (title) {
+                calendar.fullCalendar('renderEvent',
+                  {
+                    title: title,
+                    start: start,
+                    end: end,
+                    allDay: allDay
+                  },
+                  true
+                );
+              }
+              calendar.fullCalendar('unselect');
+            },
+            droppable: true,
+            drop: function(date, allDay) {
+              var originalEventObject = $(this).data('eventObject');
+              var copiedEventObject = $.extend({}, originalEventObject);
+              copiedEventObject.start = date;
+              copiedEventObject.allDay = allDay;
+              $('#calendar').fullCalendar('renderEvent', copiedEventObject, true);
+              if ($('#drop-remove').is(':checked')) {
+                $(this).remove();
+              }
+      
+            },
+          });
+      
+      
+        });
+      
+      </script>
+</body>
+</html>

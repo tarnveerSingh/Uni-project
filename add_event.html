@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Solangture | Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/jquery.mmenu.all.css">
+    <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="asWrapper">
+        <header class="asHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 col-sm-6 col-md-4">
+                        <div class="siteLogo">
+                            <a href="index.html">
+                                <img src="./assets/images/logo.png" alt="Solangture">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-sm-6 col-md-8 d-flex align-items-center justify-content-end">
+                        <a href="#mobileMenu" class="mobileNavBtn" title="Menu">
+                            <i class="fas fa-align-right"></i>
+                        </a>
+                        <div id="mobileMenu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="admin.html">Event Details</a></li>
+                                <li class="active"><a href="add_event.html">Add Events</a></li>
+                                <li><a href="#">Payroll Employees</a></li>
+                                <li><a href="#"><i class="far fa-user"></i> Username</a>
+                                    <ul class="">
+                                        <li><a href="admin.html">Dashboard</a></li>
+                                        <li><a href="#">My Profile</a></li>
+                                        <li><a href="#">Change Password</a></li>
+                                        <li><a href="index.html">Log out</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="desktopMenu">
+                            <ul class="nav mainNav">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="admin.html">Event Details</a></li>
+                                <li class="active"><a href="add_event.html">Add Events</a></li>
+                                <li><a href="appoinment.html">Appoinment</a></li>
+                                <li class="userId"><a href="#"><i class="far fa-user"></i></a>
+                                    <ul class="">
+                                        <li><a href="admin.html">Dashboard</a></li>
+                                        <li><a href="#">My Profile</a></li>
+                                        <li><a href="#">Change Password</a></li>
+                                        <li><a href="index.html">Log out</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="secPadding">
+            <div class="container">
+                <h2 class="secTitle"><span>Add Event</span></h2>
+                <form class="row" action="admin.html">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="form-group">
+                            <label>Event Name</label>
+                            <input type="text" class="form-control" required placeholder="Momo fest">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="form-group">
+                            <label>Start Date</label>
+                            <input type="text" class="form-control" required placeholder="01 january">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="form-group">
+                            <label>Entry Fee</label>
+                            <input type="text" class="form-control" placeholder="$5 entry, U/12 free">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="form-group">
+                            <label>Location</label>
+                            <input type="text" class="form-control" required placeholder="Ballarat Road, Footscray">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="form-group">
+                            <label>Date & Time</label>
+                            <input type="text" class="form-control" required placeholder="Sat 4 April 5pm to 10pm">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="form-group">
+                            <label>Hosted By</label>
+                            <input type="text" class="form-control" required
+                                placeholder="International Dumpling Festival, Solangture">
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="form-group">
+                            <label>Description</label>
+                            <textarea required class="form-control" cols="30" rows="6"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label>Image</label>
+                            <input type="file" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <button type="submit" class="btn primaryBtn">Save</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="asFooter">
+            <div class="footerInfo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="fLogo">
+                                <a href="home.php">
+                                    <img src="assets/images/logo.png" alt="DUSRA Soft">
+                                </a>
+                            </div>
+                            <div class="addressFooter">
+                                <p>
+                                    35 Rupara Street,<br>
+                                    MODBURY,<br>
+                                    South Australia-5092
+                                </p>
+                            </div>
+                            <ul>
+                                <li><strong>Email:</strong> <a href="mailto:info@solangture.com">info@solangture.com</a>
+                                </li>
+                                <li><strong>Phone:</strong> <a href="tel:+61425440570">+61 425 440 570</a></li>
+                            </ul>
+                            <ul class="socialMedia">
+                                <li><a href="https://www.facebook.com/pg/solangturepage" class="facebook"
+                                        target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" class="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li><a href="#" class="dribbble" target="_blank"><i class="fab fa-dribbble"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <h4>Navigration</h4>
+                            <ul class="menu">
+                                <li><a href="#">Calender</a></li>
+                                <li><a href="#">Event</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Sign Up</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <h4>Quick Links</h4>
+                            <ul class="menu">
+                                <li><a href="#">Calender</a></li>
+                                <li><a href="#">Event</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Sign Up</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <h4>NewsLetter</h4>
+                            <div class="newsLetter">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Jhon Abraham">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="example@email.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <small class="form-text text-muted">Don't Worry we hate spam!</small>
+                                    </div>
+                                    <button type="submit" class="btn">Subcribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyRight">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 order-md-2">
+                            <ul class="nav justify-content-center justify-content-md-end">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Teams & Conditions</a></li>
+                                <li><a href="#">Site map</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 text-center text-md-left order-md-1">
+                            <p>&copy; copyright 2020. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/jquery.fancybox.min.js"></script>
+    <script src="./assets/js/jquery.mmenu.all.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
