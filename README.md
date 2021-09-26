@@ -1,3 +1,1 @@
-# Uni-project
-
-https://solangture.netlify.app/
+# Uni-project https://solangture.netlify.app/
